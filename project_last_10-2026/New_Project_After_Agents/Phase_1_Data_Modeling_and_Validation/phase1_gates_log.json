@@ -1,0 +1,26 @@
+{
+    "gate_1_1": {
+        "gate_name": "Gate 1.1: Data Integrity & Biological Plausibility Gate",
+        "passed": true,
+        "zero_counts_detected": {
+            "Glucose": 5,
+            "BloodPressure": 35,
+            "BMI": 11
+        },
+        "issues": [],
+        "details": "All biological zeros identified and properly imputed using median strategy; output is 100% clean and finite."
+    },
+    "gate_1_2": {
+        "gate_name": "Gate 1.2: Model Performance & Calibration Gate",
+        "passed": true,
+        "metrics_evaluated": {
+            "accuracy": 0.8311688311688312,
+            "roc_auc": 0.8516666666666666,
+            "brier_score": 0.14223204514672527,
+            "latency_ms": 60.289500004728325
+        },
+        "issues": [],
+        "details": "Performance verified: ROC-AUC=0.852, Accuracy=0.831, Brier=0.142, Latency=60.29ms."
+    },
+    "all_gates_passed": true
+}
