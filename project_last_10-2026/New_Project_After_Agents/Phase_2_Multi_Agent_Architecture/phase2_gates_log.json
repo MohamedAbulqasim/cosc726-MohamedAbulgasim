@@ -1,0 +1,26 @@
+{
+    "gate_2_1": {
+        "gate_name": "Gate 2.1: Schema Contract & Serialization Gate",
+        "passed": true,
+        "issues": [],
+        "details": "All multi-agent data transfers conform strictly to typed Pydantic contracts."
+    },
+    "gate_2_2": {
+        "gate_name": "Gate 2.2: Semantic Consistency Gate",
+        "passed": true,
+        "issues": [],
+        "details": "Complete clinical semantic concordance between numerical risk score and narrative explanation."
+    },
+    "gate_2_3": {
+        "gate_name": "Gate 2.3: Clinical Emergency Triage Gate",
+        "passed": true,
+        "issues": [],
+        "details": "Emergency safeguard verified: critical thresholds trigger prompt urgent triage notices."
+    },
+    "cohort_execution_ms": {
+        "normal": 105.47,
+        "diabetic": 68.41,
+        "emergency": 63.18
+    },
+    "all_gates_passed": true
+}
