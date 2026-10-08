@@ -1,0 +1,68 @@
+{
+    "model_name": "Calibrated_Random_Forest_Ensemble",
+    "accuracy": 0.8311688311688312,
+    "precision": 0.7692307692307693,
+    "recall": 0.7407407407407407,
+    "f1_score": 0.7547169811320755,
+    "roc_auc": 0.8516666666666666,
+    "brier_score": 0.14223204514672527,
+    "confusion_matrix": [
+        [
+            88,
+            12
+        ],
+        [
+            14,
+            40
+        ]
+    ],
+    "model_comparisons": {
+        "RandomForest": {
+            "cv_mean_accuracy": 0.7491936558709849,
+            "cv_mean_roc_auc": 0.8313759689922481,
+            "cv_mean_f1": 0.5965473085426136,
+            "test_accuracy": 0.7987012987012987,
+            "test_precision": 0.7346938775510204,
+            "test_recall": 0.6666666666666666,
+            "test_f1": 0.6990291262135923,
+            "test_roc_auc": 0.845,
+            "brier_score": 0.1518768454087821
+        },
+        "GradientBoosting": {
+            "cv_mean_accuracy": 0.7557643609222977,
+            "cv_mean_roc_auc": 0.830577242524917,
+            "cv_mean_f1": 0.6237925706493209,
+            "test_accuracy": 0.7922077922077922,
+            "test_precision": 0.6964285714285714,
+            "test_recall": 0.7222222222222222,
+            "test_f1": 0.7090909090909091,
+            "test_roc_auc": 0.8409259259259259,
+            "brier_score": 0.14763461595958569
+        },
+        "LogisticRegression": {
+            "cv_mean_accuracy": 0.7541116886578703,
+            "cv_mean_roc_auc": 0.8279928017718715,
+            "cv_mean_f1": 0.6028776872490164,
+            "test_accuracy": 0.8116883116883117,
+            "test_precision": 0.7551020408163265,
+            "test_recall": 0.6851851851851852,
+            "test_f1": 0.7184466019417476,
+            "test_roc_auc": 0.8457407407407407,
+            "brier_score": 0.14647067767195177
+        }
+    },
+    "feature_importances": {
+        "Pregnancies": 0.06617758203161873,
+        "Glucose": 0.2857301469017037,
+        "BloodPressure": 0.03423796846528775,
+        "SkinThickness": 0.050891902031683124,
+        "Insulin": 0.07629807567248914,
+        "BMI": 0.1348752280859568,
+        "DiabetesPedigreeFunction": 0.06212200710350229,
+        "Age": 0.16364321605938345,
+        "Insulin_Glucose_Ratio": 0.0652393228786787,
+        "High_Risk_Age": 0.005382268777994483,
+        "Obesity_Flag": 0.045382158844928105,
+        "Pedigree_Risk": 0.010020123146773592
+    }
+}
