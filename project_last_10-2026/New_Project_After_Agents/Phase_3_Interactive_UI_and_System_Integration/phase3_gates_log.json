@@ -1,0 +1,21 @@
+{
+    "gate_3_1": {
+        "gate_name": "Gate 3.1: UI & Patient Input Validation Gate",
+        "passed": true,
+        "issues": [],
+        "details": "Interactive input safely captured, validated, and sanitized."
+    },
+    "gate_3_2_arabic": {
+        "gate_name": "Gate 3.2: Export Completeness & Document Integrity Gate",
+        "passed": true,
+        "issues": [],
+        "details": "Document verified: valid .docx format (40421 bytes)."
+    },
+    "gate_3_2_english": {
+        "gate_name": "Gate 3.2: Export Completeness & Document Integrity Gate",
+        "passed": true,
+        "issues": [],
+        "details": "Document verified: valid .docx format (39801 bytes)."
+    },
+    "all_gates_passed": true
+}
