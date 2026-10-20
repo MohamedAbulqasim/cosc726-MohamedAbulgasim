@@ -1,0 +1,36 @@
+{
+    "gate_4_1": {
+        "gate_name": "Gate 4.1: Automated Test Suite 100% Pass Gate",
+        "passed": true,
+        "total_tests": 10,
+        "failed_tests": 0,
+        "issues": [],
+        "details": "Zero test failures: all 10 automated tests passed successfully."
+    },
+    "gate_4_2": {
+        "gate_name": "Gate 4.2: Real-Time Latency & Production Reliability Gate",
+        "passed": true,
+        "mean_latency_ms": 61.832324000424705,
+        "p95_latency_ms": 63.803000006009825,
+        "issues": [],
+        "details": "Real-time benchmark certified: Mean latency = 61.83ms, P95 = 63.80ms."
+    },
+    "benchmarks": {
+        "iterations": 25,
+        "mean_latency_ms": 61.832324000424705,
+        "std_latency_ms": 1.219919843744433,
+        "min_latency_ms": 60.150800010887906,
+        "max_latency_ms": 65.41310000466183,
+        "p50_latency_ms": 61.465699996915646,
+        "p95_latency_ms": 63.803000006009825,
+        "throughput_requests_per_sec": 16.172770733850005,
+        "component_mean_ms": {
+            "triage": 0.020835999166592956,
+            "diagnostic": 61.72755200008396,
+            "reasoning": 0.057991999201476574,
+            "lifestyle": 0.015487999189645052,
+            "gatekeeper": 0.00872800126671791
+        }
+    },
+    "all_gates_passed": true
+}
