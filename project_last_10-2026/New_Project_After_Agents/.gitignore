@@ -1,0 +1,24 @@
+# Environment Variables (CRITICAL FOR COSC726: NEVER COMMIT REAL .ENV)
+.env
+*.env
+!.env.example
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+
+# Chrome / Automation Cache
+temp_chrome/
+extracted_slides_images/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.log
